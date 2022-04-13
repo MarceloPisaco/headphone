@@ -25,9 +25,7 @@ header {
     font-size: 14px;
     text-decoration: none;
 }
-.header__ul li a:hover{
-    color: rgb(131, 207, 188);
-}
+
 /*Home*/
 .imgHome {
     display: flex;
