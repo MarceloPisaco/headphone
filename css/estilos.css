@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    margin: 45px;
+}
+.header__logo {
+    width: 50%;
+}
+.header__nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.header__ul li a{
+    display: flex;
+    color: white;
+    font-family: dm sans regular;
+    font-size: 14px;
+    text-decoration: none;
+}
+.header__ul li a:hover{
+    color: rgb(131, 207, 188);
+}
+/*Home*/
+.imgHome {
+    display: flex;
+    margin-left: 130px;
+    width: 80%;
+}
+/*Productos*/
+.mainProd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contentProd {
+    align-content: flex-start;
+    align-items: center;
+    padding: 60px;
+    margin: 100;
+}
+.imgProd {
+    width: 300px;
+}
+.imgProdR {
+    width: 150px;
+}
+.h2Prod {
+    display: flex;
+    color: white;
+    font-size: 14px;
+    font-family: dm sans;
+}
+.pProd {
+    display: flex;
+    color: white;
+    font-size: 10px;
+    font-family: dm sans;
+}
+.btnProd {
+    background-color: rgb(191, 235, 255);
+    border-radius: 1px;
+    padding: 1px;
+    text-decoration: none;
+}
+
+/*Destacados*/
+.imgDest {
+    width: 100%;
+    align-items: center;  
+}
+/*Contacto*/
+.contContact {
+    display: flex;
+    color: white;
+    font-family: dm sans;
+    margin: 45px;
+    justify-content: center;
+    gap: 45px;
+}
+.titleContact {
+    font-size: 14px;
+}
+.subtCont {
+    font-size: 14px;
+}
+.textContact {
+    font-size: 16px;
+}
+/*Registrate*/
+.formRegistrate {
+    display: flex;
+    color: white;
+    font-size: 14px;
+    font-family: dm sans;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    gap: 90px;
+    margin-top: 15%;
+    margin-left: 30%;
+}
+.imgRegistrate {
+    display: flex;
+    width: 300px;
+}
+.contRegis {
+    background-color: white;
+    margin: 4px;
+    border: none;
+    border-radius: 2px;
+    width: 180px;
+    height: 25px;
+}
+/*Footer*/
+footer {
+    display: flex;
+    margin: 45px;
+    width: 100px;
+    margin-top: 13%;
+    height: 10%;
+}
+footer img {
+    width: 22%;
+}
